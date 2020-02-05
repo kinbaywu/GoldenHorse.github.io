@@ -114,7 +114,8 @@
 	left: 0;
 	bottom: 0;
 	transform: translate3d(0, 0, 0);
-	background: url(../img/index/photo01.jpg) no-repeat center bottom;
+	/* background: url(../img/index/photo01.jpg) no-repeat center bottom; */
+	background: url(../img/index/WuStudioCover_2.jpg) no-repeat center bottom;
 	background-size: cover;
 }
 
@@ -454,10 +455,10 @@
 	}
 
 	#main .mainImg {
-		/* background: url(../img/index/sp_photo01.jpg) no-repeat center bottom; */
 		background: url(../img/index/IMG_1575.jpg) no-repeat center bottom;
 		background-size: cover;
 	}
+	/* background: url(../img/index/sp_photo01.jpg) no-repeat center bottom; */
 
 	#main .mainBox02 {
 		margin-bottom: 92px;
