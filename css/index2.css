@@ -1,0 +1,758 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	??????
+------------------------------------------------------------*/
+#gHeader {
+	top: -70px;
+}
+
+#container {
+	padding-top: 0;
+}
+
+#main .bgBox {
+	position: relative;
+	z-index: 1000;
+	background-color: #FFF;
+}
+
+#main .topBox {
+	position: relative;
+}
+
+#main .topBox .shareBox,
+#main .topBox .textImg,
+#main .topBox .linkList,
+#main .topBox .scrollLink,
+#main .topBox h1,
+.spMenu {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+#main .topBox .shareBox {
+	padding: 49px 70px 0 0;
+	height: 51px;
+	text-align: right;
+}
+
+#main .topBox .shareBox .linkBox {
+	position:relative;
+	float: right;
+	overflow: hidden;
+}
+
+#main .topBox .shareBox .link {
+	float: right;
+	position: relative;
+	z-index: 10;
+}
+
+#main .topBox .shareBox ul {
+	width: 158px;
+	position: absolute;
+	right: -106px;
+	float: right;
+}
+
+#main .topBox .shareBox li {
+	float: left;
+}
+
+#main .topBox h1 {
+	margin: -66px 0 0 -139px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#main .topBox .textImg {
+	margin-left: -98px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+}
+
+#main .topBox .linkList {
+	padding: 0 39px;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 26px;
+	box-sizing: border-box;
+}
+
+#main .topBox .linkList li {
+	margin: 1px 45px 0 0;
+	float: left;
+}
+
+#main .topBox .linkList .liStyle {
+	margin: 0;
+	float: right;
+}
+
+#main .topBox .scrollLink {
+	margin-left: -8px;
+	position: absolute;
+	left: 50%;
+	bottom: 51px;
+}
+
+#main .fixBox {
+	margin-bottom: 106px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+
+#main .mainImg {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	transform: translate3d(0, 0, 0);
+	background: url(../img/index/photo01.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+
+#main .mainBox02 {
+	margin-bottom: 120px;
+}
+
+#main .mainBox03 {
+	margin-bottom: 115px;
+}
+
+#main .indexMenu {
+	margin-bottom: 150px;
+}
+
+#main .textList li {
+	width: 440px;
+	float: left;
+}
+
+#main .textList li .title {
+	margin-bottom: 43px;
+}
+
+#main .textList li .title img {
+	margin: 0 auto;
+}
+
+#main .textList li p {
+	line-height: 2.28;
+}
+
+#main .textList .liStyle {
+	float: right;
+}
+
+#main .textList .liStyle .title {
+	margin-bottom: 46px;
+}
+
+#main .textList .liStyle p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 2.15;
+}
+
+#main h2 {
+	margin-bottom: 33px;
+}
+
+#main .comPhoto {
+	margin-bottom: 45px;
+	height: 680px;
+}
+
+#main .indexMenu p {
+	margin-bottom: 14px;
+	line-height: 1.96;
+	width: 440px;
+	float: left;
+}
+
+#main .indexMenu .text {
+	margin-bottom: 38px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 1.8;
+	float: right;
+}
+
+#main .indexLink {
+	font-family: 'EB Garamond', serif;
+	font-size: 13px;
+	text-align: center;
+	clear: both;
+}
+
+#main .indexLink a {
+	padding: 15px 10px 13px;
+	min-width: 136px;
+	position: relative;
+	display: inline-block;
+	color: #555;
+	text-decoration: none;
+	border: 1px solid #7A7A7A;
+	border-radius: 26px;
+	behavior: url(js/pie.htc);
+	zoom: 1;
+	transition: all 0.5s;
+}
+
+#main .indexLink a:hover {
+	background-color: #555;
+	color: #fff;
+	transition: all 0.5s;
+}
+
+#main .bx-wrapper {
+	margin-bottom: 59px;
+}
+
+#main .bxslider li {
+	color: #B8B8B8;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 11px;
+	line-height: 2;
+	text-align: right;
+}
+
+#main .h2Ttl {
+	margin-bottom: 79px;
+}
+
+#main .textList01 {
+	margin-bottom: 71px;
+}
+
+#main .textList02 {
+	margin-bottom: 85px;
+}
+
+#main .textList01 li {
+	width: 290px;
+	float: left;
+	font-size: 13px;
+	line-height: 1.38;
+}
+
+#main .textList01 li .title {
+	margin-bottom: 18px;
+}
+
+#main .textList01 li p {
+	margin-bottom: 12px;
+	min-height: 59px;
+}
+
+#main .textList01 li p span {
+	margin-bottom: 5px;
+	display: block;
+}
+
+#main .textList01 .liStyle {
+	padding: 0 50px;
+	width: 280px;
+}
+
+#main .textList01 li .text {
+	margin-bottom: 17px;
+	min-height: inherit;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	line-height: 1.23;
+}
+
+#main .textList01 li .text span {
+	margin-bottom: 6px;
+}
+
+#main .textList01 li .link {
+	margin: 0 0 0 -4px;
+	min-height: inherit;
+	font-family: 'EB Garamond', serif;
+	font-size: 14px;
+	line-height: 1;
+}
+
+#main .textList01 li .link a {
+	padding-left: 9px;
+	position: relative;
+	display: inline-block;
+	color: #555;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+	background-color: #EEE;
+	behavior: url(js/pie.htc);
+	zoom: 1;
+	transition: all 0.5s;
+}
+
+#main .textList01 li .link a span {
+	margin-bottom: 0;
+	padding-bottom: 4px;
+	min-width: 52px;
+	display: inline-block;
+	transition: all 0.5s;
+}
+
+#main .textList01 li .link a:hover {
+	background-color: #555;
+	transition: all 0.5s;
+}
+
+#main .textList01 li .link a:hover span {
+	color: #EEE;
+	background: url(../img/common/icon02.png) no-repeat left center;
+	transition: all 0.5s;
+}
+
+#main .photo {
+	margin-bottom: 80px;
+	height: 379px;
+}
+
+#main .photoList li {
+	width: 440px;
+	float: right;
+}
+
+#main .photoList li h2 {
+	margin-bottom: 40px;
+	width: auto;
+}
+
+#main .photoList li h2 img {
+	margin: 0 auto;
+}
+
+#main .photoList li .pic {
+	margin-bottom: 37px;
+}
+
+#main .photoList li p {
+	margin-bottom: 29px;
+	line-height: 1.84;
+}
+
+#main .photoList li p span {
+	margin-top: 8px;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 1.69;
+}
+
+#main .photoList li .indexLink a {
+	padding:  13px 10px 12px;
+	min-width: 120px;
+}
+
+#main .photoList li:first-child {
+	float: left;
+}
+
+#main .press ul {
+	margin: 0 auto 40px auto;
+	width: 50%;
+}
+
+#main .press ul li {
+	margin: 0 0 20px 0;
+	width: auto;
+	float: none;
+}
+
+#main .press ul li p {
+	margin: auto;
+	min-height: auto;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+#main .press ul li p span {
+	display: inline;
+}
+
+#main .press ul li p span.create_dt {
+	margin: 0 8% 0 0;
+	letter-spacing: 0.05em;
+}
+
+@media all and (min-width: 2356px) {
+	#main .bx-wrapper {
+		margin: 0 auto;
+	}
+}
+
+@media all and (min-width: 767px) {
+	#main .textList01 li .link a span {
+		background: url(../img/common/icon01.png) no-repeat left center;
+	}
+
+	#main .comPhoto {
+		background: url(../img/index/photo02.jpg) no-repeat center top;
+	}
+	#main .comPhoto_style {
+		background: url(../img/index/photo_style01.jpg) no-repeat center top;
+	}
+	#main .h_img {
+		height: 379px;
+        margin-left: auto;
+        margin-right: auto;
+        background-position:center 70%;
+	}
+}
+
+@media all and (min-width: 0) and (max-width: 766px)  {
+	#main .topBox {
+		width: auto;
+	}
+
+	#main .topBox .shareBox {
+		display: none;
+	}
+
+	#main .topBox h1 {
+		margin: -61px 0 0 -61px;
+		top: 54%
+	}
+
+	#main .topBox h1 img {
+		width: 123px;
+	}
+
+	#main .topBox .textImg img {
+		width: 98px;
+	}
+
+	#main .topBox .linkList {
+		display: none;
+	}
+
+	#main .topBox .scrollLink {
+		margin-left: -8px;
+		bottom: 14px;
+	}
+
+	#main .fixBox {
+		margin-bottom: 52px;
+		height: 458px;
+	}
+
+	#main .mainImg {
+		/* background: url(../img/index/sp_photo01.jpg) no-repeat center bottom; */
+		background: url(../img/index/IMG_1575.jpg) no-repeat center bottom;
+		background-size: cover;
+	}
+
+	#main .mainBox02 {
+		margin-bottom: 92px;
+	}
+
+	#main .mainBox03 {
+		margin-bottom: 92px;
+	}
+
+	#main .indexMenu {
+		margin-bottom: 99px;
+	}
+
+	#main .textList li {
+		margin-bottom: 40px;
+		width: auto;
+		float: none;
+	}
+
+	#main .textList li .title {
+		margin-bottom: 20px;
+	}
+
+	#main .textList li p {
+		line-height: 1.83;
+	}
+
+	#main .textList .liStyle {
+		margin-bottom: 0;
+		float: none;
+	}
+
+	#main .textList .liStyle .title {
+		margin-bottom: 11px;
+	}
+
+	#main .textList .liStyle p {
+		font-size: 12px;
+		line-height: 1.67;
+	}
+
+	#main h2 {
+		margin-bottom: 29px;
+	}
+
+	#main .comPhoto {
+		margin-bottom: 28px;
+		height: auto;
+	}
+
+	#main .indexMenu p {
+		margin-bottom: 24px;
+		font-size: 12px;
+		float: none;
+		width: auto;
+	}
+
+	#main .indexMenu .text {
+		margin-bottom: 34px;
+		line-height: 1.67;
+		font-size: 12px;
+		float: none;
+	}
+
+	#main .indexLink {
+		font-size: 12px;
+	}
+
+	#main .indexLink a {
+		padding: 12px 10px 10px;
+		min-width: 112px;
+	}
+
+	#main .bx-wrapper {
+		margin-bottom: 35px;
+	}
+
+	#main .bxslider li {
+		font-size: 10px;
+		line-height: 1.2;
+	}
+
+	#main .bxslider li img {
+		width: 100%;
+		padding-bottom: 0.5em;
+	}
+
+	#main .h2Ttl {
+		margin-bottom: 33px;
+	}
+
+	#main .textList01 {
+		margin-bottom: 0;
+	}
+
+	#main .textList02 {
+		margin-bottom: 0;
+		padding-bottom: 10px;
+	}
+
+	#main .textList01 li {
+		margin-bottom: 30px;
+		width: auto;
+		float: none;
+		font-size: 11px;
+	}
+
+	#main .textList01 li .spNone {
+		display: none;
+	}
+
+	#main .textList01 li .title {
+		margin-bottom: 15px;
+	}
+
+	#main .textList01 li p {
+		margin-bottom: 7px;
+		min-height: inherit;
+	}
+
+	#main .textList01 li p span {
+		margin-bottom: 0;
+	}
+
+	#main .textList01 .liStyle {
+		padding: 0;
+		width: auto;
+	}
+
+	#main .textList01 li .text {
+		margin-bottom: 9px;
+	}
+
+	#main .textList01 li .text span {
+		margin-bottom: 1px;
+	}
+
+	#main .textList01 li .link {
+		margin: 0 0 0 -5px;
+		font-size: 12px;
+		line-height: 1.2;
+	}
+
+	#main .textList01 li .link a span {
+		min-width: 62px;
+		background: url(../img/common/sp_icon01.png) no-repeat left center;
+		background-size: 8px 12px;
+	}
+
+	#main .textList01 li .link a:hover span {
+		background-size: 8px 12px;
+	}
+
+	#main .photo {
+		margin-bottom: 87px;
+		height: 254px;
+	}
+
+	#main .photoList li {
+		width: auto;
+		float: none;
+	}
+
+	#main .photoList li h2 {
+		margin-bottom: 24px;
+		width: auto;
+	}
+
+	#main .photoList li .pic {
+		margin-bottom: 24px;
+	}
+
+	#main .photoList li .pic img {
+		width: 100%;
+	}
+
+	#main .photoList li p {
+		margin-bottom: 20px;
+		font-size: 12px;
+	}
+
+	#main .photoList li p span {
+		margin-top: 5px;
+		line-height: 1.67;
+		font-size: 12px;
+	}
+
+	#main .photoList li .indexLink a {
+		padding: 12px 10px 10px;
+		min-width: 112px;
+	}
+
+	#main .photoList li:first-child {
+		margin-bottom: 88px;
+		float: none;
+	}
+
+	#main .press ul {
+		margin: 0 auto 10px auto;
+		width: 100%;
+	}
+
+	#main .press ul li p span.create_dt {
+		display: block;
+		color: #808080;
+		margin-bottom: 5px;
+	}
+
+	#main .press ul li p .tit {
+		font-size: 12px;
+	}
+
+	#main .press ul li p {
+		white-space: normal;
+	}
+
+	#main .press ul li p .tit {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+	}
+}
+
+/****** iPhone6Plus ********/
+@media (device-height:736px) and (device-width:414px) and (min-width: 414px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 414px !important;}
+	#main .topBox{height: 628px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 697px !important;
+	}
+}
+
+@media (device-height:736px) and (device-width:414px) and (min-width: 736px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 736px !important;}
+	#main .topBox{height: 337px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 414px !important;
+	}
+}
+
+/****** iPhone6 ********/
+@media (device-height:667px) and (device-width:375px) and (min-width: 375px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 375px !important;}
+	#main .topBox{height: 559px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 628px !important;
+	}
+}
+
+@media (device-height:667px) and (device-width:375px) and (min-width: 667px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 667px !important;}
+	#main .topBox{height: 331px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 375px !important;
+	}
+}
+
+/****** iPhone5 ********/
+@media (device-height:568px) and (device-width:320px) and (min-width: 320px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 320px !important;}
+	#main .topBox{height: 460px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 529px !important;
+	}
+}
+
+@media (device-height:568px) and (device-width:320px) and (min-width: 568px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 568px !important;}
+	#main .topBox{height: 232px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 320px !important;
+	}
+}
+
+/****** iPhone4 ********/
+@media (device-height:480px) and (device-width:320px) and (min-width: 320px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 320px !important;}
+	#main .topBox{height: 372px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 441px !important;
+	}
+}
+
+@media (device-height:480px) and (device-width:320px) and (min-width: 480px) and (-webkit-min-device-pixel-ratio:2)  {
+	#main .mainImg {width: 480px !important;}
+	#main .topBox{height: 212px !important;}
+	#main .fixBox,
+	#main .mainImg {
+		height: 320px !important;
+	}
+}
