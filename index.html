@@ -43,7 +43,7 @@ document.write('<meta name="viewport" content="width=device-width, initial-scale
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-71721389-1', 'auto');
-  ga('send', 'pageview');
+  ga('send', 'pageview');_
 
 </script>
 </head>
@@ -90,7 +90,7 @@ document.write('<meta name="viewport" content="width=device-width, initial-scale
 						</ul>
 					</div>
 				</div>
-				<h1><img src="img/index/h1_img.gif" alt="AFURI"></h1>
+				<h1><img src="img/index/Wu_Productions.gif" alt="Wu Productions"></h1>
 				<ul class="linkList clearfix">
 					<li><a class="pageChange" href="about/" data-r767='<img src="img/common/g_navi01_out.gif" alt="ABOUT US">'></a></li>
 					<li><a class="pageChange" href="brand/" data-r767='<img width="38" src="/img/common/g_navi06_out.gif" alt="brand">'></a></li>
@@ -144,13 +144,27 @@ document.write('<meta name="viewport" content="width=device-width, initial-scale
         </style>
         <h2 class="scrollFade" data-r0='<img src="img/index/sp_h2_img02.gif" width="125" alt="FIND US 店舗情報">' data-r767='<img src="img/index/h2_img02.gif" alt="FIND US 店舗情報">'></h2>
 		<ul class="bxslider">
+			<php $dir = "/your_folder_here/";
+
+			// Open a known directory, and proceed to read its contents
+			if (is_dir($dir)) {
+				if ($dh = opendir($dir)) {
+					while (($file = readdir($dh)) !== false) {
+						if($file == $_POST['SEARCHBOX_INPUT']){
+							echo('<a href="'.$dir . $file.'">'. $file .'</a>'."\n");
+						}
+					}
+					closedir($dh);
+				}
+			}
+			>
 			<!-- <li><img src="img/index/DSCN5337.jpg" width="300" alt="KB Fighter1" />Fighter1</li>
 			<li><img src="img/index/DSCN5338.jpg" width="300" alt="KB Fighter2" />Fighter2</li>
 			<li><img src="img/index/IMG_1575.jpg" width="300" alt="KB Fighter3" />Fighter3</li> -->
-			<li><img src="img/index/WuStudio_Roll_0.jpg" alt="Wu Studio someone0" />someone0</li>
-			<li><img src="img/index/WuStudio_Roll_1.jpg" alt="Wu Studio someone1" />someone1</li>
-			<li><img src="img/index/WuStudio_Roll_2.jpg" alt="Wu Studio someone2" />someone2</li>
-			<li><img src="img/index/WuStudio_Roll_3.jpg" alt="Wu Studio someone3" />someone3</li>
+			<li><img src="img/index/WuStudio_Roll_0.jpg" alt="Wu Studio someone0" />Belle Bridal 1</li>
+			<li><img src="img/index/WuStudio_Roll_1.jpg" alt="Wu Studio someone1" />Belle Bridal 2</li>
+			<li><img src="img/index/WuStudio_Roll_2.jpg" alt="Wu Studio someone2" />Belle Bridal 3</li>
+			<li><img src="img/index/WuStudio_Roll_3.jpg" alt="Wu Studio someone3" />Belle Bridal 4</li>
 			<!-- <li><img src="img/index/photo07.jpg" alt="AFURI 中目黒" />Nakameguro</li> -->
 		</ul>
 
@@ -205,13 +219,13 @@ document.write('<meta name="viewport" content="width=device-width, initial-scale
 </footer>
 </article>
 <script type="text/javascript" src="js/index.js"></script>
-<!--[if lte IE 8]>
+<!-- [if lte IE 8]>
 <script type="text/javascript" src="js/jquery.backgroundSize.js"></script>
 <script>
 $(function() {
   $("#main .mainImg").css( "background-size", "cover" );
 });
 </script>
-<![endif]-->
+<![endif] -->
 </body>
 </html>
